@@ -1,0 +1,20 @@
+{
+  "modid": "tacz",
+  "gradeId": "legendary",
+  "resourceLocations": [
+    "tacz:deagle_golden",
+    "tacz:deagle",
+    "tacz:timeless50",
+    "tacz:rpg7",
+    "tacz:rpk",
+    "tacz:fn_evolys",
+    "tacz:vector45",
+    "tacz:aa12",
+    "tacz:spas_12",
+    "tacz:scar_h",
+    "tacz:qbz_191",
+    "tacz:ai_awp",
+    "tacz:m107"
+  ],
+  "item_rarity_type": "rarity_grade_by_modid"
+}

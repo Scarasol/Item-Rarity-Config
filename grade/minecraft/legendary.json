@@ -1,0 +1,30 @@
+{
+  "modid": "minecraft",
+  "gradeId": "legendary",
+  "resourceLocations": [
+    "minecraft:netherite_sword",
+    "minecraft:netherite_axe",
+    "minecraft:trident",
+    "minecraft:netherite_helmet",
+    "minecraft:netherite_chestplate",
+    "minecraft:netherite_boots",
+    "minecraft:netherite_leggings",
+    "minecraft:totem_of_undying",
+    "minecraft:netherite_shovel",
+    "minecraft:netherite_pickaxe",
+    "minecraft:netherite_hoe",
+    "minecraft:enchanted_golden_apple",
+    "minecraft:ancient_debris",
+    "minecraft:netherite_ingot",
+    "minecraft:netherite_scrap",
+    "minecraft:netherite_upgrade_smithing_template",
+    "minecraft:dragon_head",
+    "minecraft:netherite_block",
+    "minecraft:dragon_breath",
+    "minecraft:long_turtle_master",
+    "minecraft:strong_turtle_master",
+    "minecraft:elytra",
+    "minecraft:conduit"
+  ],
+  "item_rarity_type": "rarity_grade_by_modid"
+}

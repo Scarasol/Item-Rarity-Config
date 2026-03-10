@@ -1,0 +1,29 @@
+{
+  "modid": "tacz",
+  "gradeId": "epic",
+  "resourceLocations": [
+    "tacz:b93r",
+    "tacz:cz75",
+    "tacz:m249",
+    "tacz:m320",
+    "tacz:p90",
+    "tacz:ump45",
+    "tacz:m1014",
+    "tacz:sks_tactical",
+    "tacz:scar_l",
+    "tacz:g36k",
+    "tacz:aug",
+    "tacz:fn_fal",
+    "tacz:spr15hb",
+    "tacz:m16a4",
+    "tacz:hk_g3",
+    "tacz:type_81",
+    "tacz:qbz_95",
+    "tacz:ak47",
+    "tacz:hk416d",
+    "tacz:m4a1",
+    "tacz:springfield1873",
+    "tacz:m700"
+  ],
+  "item_rarity_type": "rarity_grade_by_modid"
+}

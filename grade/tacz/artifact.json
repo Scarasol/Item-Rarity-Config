@@ -1,0 +1,10 @@
+{
+  "modid": "tacz",
+  "gradeId": "artifact",
+  "resourceLocations": [
+    "tacz:m95",
+    "tacz:minigun",
+    "tacz:mk14"
+  ],
+  "item_rarity_type": "rarity_grade_by_modid"
+}

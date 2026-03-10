@@ -1,0 +1,12 @@
+{
+  "modid": "minecraft",
+  "gradeId": "artifact",
+  "resourceLocations": [
+    "minecraft:end_crystal",
+    "minecraft:heart_of_the_sea",
+    "minecraft:nether_star",
+    "minecraft:dragon_egg",
+    "minecraft:beacon"
+  ],
+  "item_rarity_type": "rarity_grade_by_modid"
+}

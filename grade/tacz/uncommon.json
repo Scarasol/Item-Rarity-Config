@@ -1,0 +1,9 @@
+{
+  "modid": "tacz",
+  "gradeId": "uncommon",
+  "resourceLocations": [
+    "tacz:db_short",
+    "tacz:glock_17"
+  ],
+  "item_rarity_type": "rarity_grade_by_modid"
+}
