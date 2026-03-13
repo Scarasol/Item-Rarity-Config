@@ -13,15 +13,28 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Create Zip and MD5
+      - name: Create Zip, MD5 and Index
         run: |
           mkdir -p dist
-          # 只打包 grade 文件夹内部的内容
+          # 1. 打包完整的 zip 和 zip 的 md5 (用于全量下载)
           cd grade
           zip -r ../dist/config.zip ./*
           cd ../dist
-          # 计算 MD5 并保存到 md5.txt
           md5sum config.zip | awk '{print $1}' > md5.txt
+          cd ..
+          
+          # 2. 生成单文件索引表 index.json (用于单体下载和单体 MD5 校验)
+          python -c '
+          import os, hashlib, json
+          idx = {}
+          for root, _, files in os.walk("grade"):
+              for f in files:
+                  path = os.path.join(root, f).replace("\\", "/")
+                  with open(path, "rb") as file:
+                      idx[path] = hashlib.md5(file.read()).hexdigest()
+          with open("dist/index.json", "w") as out:
+              json.dump(idx, out)
+          '
 
       - name: Push to dist branch
         uses: s0/git-publish-subdir-action@develop
