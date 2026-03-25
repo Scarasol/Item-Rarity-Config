@@ -1,0 +1,18 @@
+{
+  "modid": "zombiekit",
+  "gradeId": "artifact",
+  "resourceLocations": [
+    "zombiekit:napalm_fuel_canister",
+    "zombiekit:high_temperature_fuel_canister",
+    "zombiekit:bomb_helmet",
+    "zombiekit:bomb_chestplate",
+    "zombiekit:bomb_leggings",
+    "zombiekit:bomb_boots",
+    "zombiekit:exo_helmet",
+    "zombiekit:exo_chestplate",
+    "zombiekit:exo_leggings",
+    "zombiekit:exo_boots",
+    "zombiekit:bulletproof_insert"
+  ],
+  "item_rarity_type": "rarity_grade_by_modid"
+}

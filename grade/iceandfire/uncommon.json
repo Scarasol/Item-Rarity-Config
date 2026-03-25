@@ -1,0 +1,31 @@
+{
+  "modid": "iceandfire",
+  "gradeId": "uncommon",
+  "resourceLocations": [
+    "iceandfire:dragonarmor_iron_head",
+    "iceandfire:dragonarmor_iron_neck",
+    "iceandfire:dragonarmor_iron_body",
+    "iceandfire:dragonarmor_iron_tail",
+    "iceandfire:iron_hippogryph_armor",
+    "iceandfire:deathworm_yellow_helmet",
+    "iceandfire:deathworm_yellow_chestplate",
+    "iceandfire:deathworm_yellow_leggings",
+    "iceandfire:deathworm_yellow_boots",
+    "iceandfire:deathworm_white_helmet",
+    "iceandfire:deathworm_white_chestplate",
+    "iceandfire:deathworm_white_leggings",
+    "iceandfire:deathworm_white_boots",
+    "iceandfire:dread_sword",
+    "iceandfire:myrmex_jungle_resin",
+    "iceandfire:myrmex_desert_resin",
+    "iceandfire:myrmex_jungle_egg",
+    "iceandfire:myrmex_desert_egg",
+    "iceandfire:dragon_stick",
+    "iceandfire:dragon_horn",
+    "iceandfire:fire_stew",
+    "iceandfire:frost_stew",
+    "iceandfire:lightning_stew",
+    "iceandfire:manuscript"
+  ],
+  "item_rarity_type": "rarity_grade_by_modid"
+}

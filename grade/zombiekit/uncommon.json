@@ -1,0 +1,18 @@
+{
+  "modid": "zombiekit",
+  "gradeId": "uncommon",
+  "resourceLocations": [
+    "zombiekit:wrench",
+    "zombiekit:suspicious_drug",
+    "zombiekit:bandage",
+    "zombiekit:landmine",
+    "zombiekit:smokeless_gunpowder",
+    "zombiekit:gas_tank",
+    "zombiekit:rubber",
+    "zombiekit:hydrogen_nitrate",
+    "zombiekit:nitrocellulose",
+    "zombiekit:quartz_sand",
+    "zombiekit:cloth"
+  ],
+  "item_rarity_type": "rarity_grade_by_modid"
+}
